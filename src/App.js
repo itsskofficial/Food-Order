@@ -1,6 +1,4 @@
-
-
-function App() {
+cons App() {
   return (
     
   );
