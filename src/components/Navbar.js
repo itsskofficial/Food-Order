@@ -1,3 +1,3 @@
-const Navbar = () => {
-    
+const Navbar = (props) => {
+    ret
 }
