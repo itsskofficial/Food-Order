@@ -1,7 +1,7 @@
 const App = () => {
   return (
-
+    
   )
 }
 
-export default
+export default App
