@@ -11,3 +11,5 @@ const Navbar = (props) => {
         </Fragment>
     )
 }
+
+export default Navbar
