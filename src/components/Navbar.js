@@ -5,7 +5,7 @@ const Navbar = (props) => {
         <Fragment>
             <div className="navbar-container">
                 <div className="navbar-logo">
-                    <img alt= "navbar"src="../../public/assets/logo.png" className="navbar-logo-img"></img>
+                    <img alt= "navbar-logo-img" src="../../public/assets/logo.png" className="navbar-logo-img"></img>
                 </div>
             </div>
         </Fragment>
