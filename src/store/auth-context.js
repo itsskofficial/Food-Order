@@ -4,6 +4,6 @@ const AuthContext = React.createContext({
     cartItems: 0,
 })
 
-const AuthContextProvider = () => {
+const AuthContextProvider = (props) => {
     
 }
