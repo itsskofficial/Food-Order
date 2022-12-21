@@ -1,7 +1,8 @@
 const Navbar = (props) => {
     return (
         <Fragment>
-            <div className=""
+            <div className="navbar-container">
+                
         </Fragment>
     )
 }
