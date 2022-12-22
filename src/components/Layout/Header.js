@@ -1,6 +1,6 @@
 import { Fragment } from "react"
 import Button from "../UI/Button"
-import foodImage
+import foodImage from "../../"
 
 const Header = (props) => {
     return (
