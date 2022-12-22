@@ -1,4 +1,4 @@
-import 
+import "./css/MealItem.module.css"
 
 const MealItem = (props) => {
     return (
