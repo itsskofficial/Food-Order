@@ -1,7 +1,15 @@
 const MealItem = (props) => {
     return (
         <li>
-            <div></div>
+            <div>
+                <h3>
+                    {props.name}
+                </h3>
+                <div>
+                    {props.description}
+                </div>
+                <div>
+            </div>
         </li>
     )
 }
