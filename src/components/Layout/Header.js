@@ -12,6 +12,9 @@ const Header = (props) => {
                     Cart
                 </Button>
             </header>
+            <div>
+                
+            </div>
 
             
 
