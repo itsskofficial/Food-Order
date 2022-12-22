@@ -30,9 +30,9 @@ const AvailableMeals = () => {
     return (
         <section>
             <ul>
-                
+                {mealsList}
             </ul>
-        {mealsList}
+        </section>
     )
 }
 
