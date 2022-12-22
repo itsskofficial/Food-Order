@@ -1,0 +1,5 @@
+const MealsSummary = (props) => {
+    return (
+        
+    )
+}
