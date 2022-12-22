@@ -1,6 +1,6 @@
 import CartIcon from "../Cart/CartIcon"
 import Button from "../UI/Button"
-import classes from "./"
+import classes from "./css/HeaderCartButton.module.css"
 
 const HeaderCartButton = (props) => {
     return (
