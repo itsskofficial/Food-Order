@@ -12,7 +12,6 @@ const Header = (props) => {
                     Food Order
                 </h1>
                 <HeaderCartButton/>
-                </HeaderCartButton>
             </header>
             <div className={classes["main-image"]}>
                 <img alt="Food" src={foodImage} />
