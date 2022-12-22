@@ -26,8 +26,9 @@ const DUMMY_MEALS = [
   ];
 
 const AvailableMeals = () => {
+    
     return (
-        
+
     )
 }
 
