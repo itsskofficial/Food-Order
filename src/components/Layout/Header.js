@@ -7,7 +7,7 @@ const Header = (props) => {
                 <h1>
                     Food Order
                 </h1>
-                <Button></button>
+                <Button
             </header>
 
             
