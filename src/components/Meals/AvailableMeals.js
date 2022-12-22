@@ -26,7 +26,7 @@ const DUMMY_MEALS = [
   ];
 
 const AvailableMeals = () => {
-    const mealsList = DUMMY_MEALS.map(meal => )
+    const mealsList = DUMMY_MEALS.map(meal => <li>{meal.name}</li)
     return (
 
     )
