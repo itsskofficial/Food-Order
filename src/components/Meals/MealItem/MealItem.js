@@ -1,9 +1,9 @@
-import "./css/MealItem.module.css"
+import classes from "./css/MealItem.module.css"
 
 const MealItem = (props) => {
     return (
         <li>
-            <div>
+            <div className={classes.meal}>
                 <h3>
                     {props.name}
                 </h3>
