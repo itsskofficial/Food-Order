@@ -1,3 +1,5 @@
+import 
+
 const MealItem = (props) => {
     return (
         <li>
@@ -9,6 +11,8 @@ const MealItem = (props) => {
                     {props.description}
                 </div>
                 <div>
+                    {price}
+                </div>
             </div>
         </li>
     )
