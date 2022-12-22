@@ -4,7 +4,8 @@ import Header from "./components/Layout/Header"
 const App = () => {
   return (
     <Fragment>
-      <Header></Header>
+      <Header>
+      </Header>
     </Fragment>
   )
 }
