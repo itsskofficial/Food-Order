@@ -13,7 +13,7 @@ const MealsSummary = () => {
         of course by experienced chefs!
       </p>
     </section>
-  );
-};
+  )
+}
 
 export default MealsSummary
