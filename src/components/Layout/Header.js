@@ -1,12 +1,12 @@
 import { Fragment } from "react"
 import Button from "../UI/Button"
 import foodImage from "../../assets/food.jpg"
-import classes from './css/'
+import classes from './css/Header.module.css'
 
 const Header = (props) => {
     return (
         <Fragment>
-            <header>
+            <header classN>
                 <h1>
                     Food Order
                 </h1>
