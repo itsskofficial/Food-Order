@@ -1,3 +1,3 @@
-const AvailableMeals = () +> {
+const AvailableMeals = () => {
     
 }
