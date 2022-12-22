@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import Button from "../"
+import Button from "../UI/Button"
 
 const Header = (props) => {
     return (
@@ -9,7 +9,7 @@ const Header = (props) => {
                     Food Order
                 </h1>
                 <Button>
-
+                    Cart
                 </Button>
             </header>
 
