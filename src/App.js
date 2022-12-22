@@ -5,6 +5,9 @@ const App = () => {
   return (
     <Fragment>
       <Header>
+        <main>
+          <
+        </main>
       </Header>
     </Fragment>
   )
