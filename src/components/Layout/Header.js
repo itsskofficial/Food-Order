@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import Butt
+import Button from "../"
 
 const Header = (props) => {
     return (
