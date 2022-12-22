@@ -1,7 +1,7 @@
 import classes from "./css/MealItem.module.css"
 
 const MealItem = (props) => {
-    const price = `$ ${}`
+    const price = `$ ${props.price.toFixed(2)}`
     return (
         <li>
             <div className={classes.meal}>
@@ -18,3 +18,5 @@ const MealItem = (props) => {
         </li>
     )
 }
+
+export default MealItem
