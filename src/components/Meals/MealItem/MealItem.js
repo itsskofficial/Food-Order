@@ -1,16 +1,17 @@
 import classes from "./css/MealItem.module.css"
 
 const MealItem = (props) => {
+    const price = `$ ${}`
     return (
         <li>
             <div className={classes.meal}>
                 <h3>
                     {props.name}
                 </h3>
-                <div>
+                <div className={classes.description}>
                     {props.description}
                 </div>
-                <div>
+                <div className={classes.price}>
                     {price}
                 </div>
             </div>
