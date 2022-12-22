@@ -6,11 +6,11 @@ import classes from './css/Header.module.css'
 const Header = (props) => {
     return (
         <Fragment>
-            <header classN>
+            <header className={classes.header}>
                 <h1>
                     Food Order
                 </h1>
-                <Button>
+                <Button >
                     Cart
                 </Button>
             </header>
