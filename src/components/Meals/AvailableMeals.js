@@ -30,7 +30,7 @@ const DUMMY_MEALS = [
   ];
 
 const AvailableMeals = () => {
-    const mealsList = DUMMY_MEALS.map(meal => <Mea)
+    const mealsList = DUMMY_MEALS.map(meal => <MealItem key={})
     return (
         <section className={classes.meals}>
             <Card>
