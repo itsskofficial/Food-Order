@@ -4,10 +4,12 @@ const Header = (props) => {
     return (
         <Fragment>
             <header>
-            <h1>
-                Food Order
-            </h1>
+                <h1>
+                    Food Order
+                </h1>
+                <button
             </header>
+
             
 
         </Fragment>
