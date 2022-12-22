@@ -3,7 +3,7 @@ import Button from "../UI/Button"
 
 const HeaderCartButton = (props) => {
     return (
-        <Button>
+        <Button className={}>
             <span>
                 <CartIcon/>
             </span>
