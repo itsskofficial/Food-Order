@@ -6,7 +6,11 @@ const HeaderCartButton = (props) => {
             <CartIcon/>
         </span>
         <span>
+                Your Cart
+        </span>
+        <span>
             
+        </span>
         
     )
 }
