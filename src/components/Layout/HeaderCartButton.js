@@ -1,9 +1,10 @@
 import CartIcon from "../Cart/CartIcon"
 import Button from "../UI/Button"
+import classes from "./"
 
 const HeaderCartButton = (props) => {
     return (
-        <Button className={}>
+        <Button className={classes.button}>
             <span>
                 <CartIcon/>
             </span>
