@@ -1,1 +1,3 @@
-const MealItem
+const MealItem = (props) => {
+    
+}
