@@ -13,7 +13,7 @@ const Header = (props) => {
                 </Button>
             </header>
             <div>
-                <img src="../../assets/food.jpg"/>
+                <img alt="Header Food Image" src="../../assets/food.jpg"/>
             </div>
 
             
