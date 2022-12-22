@@ -10,16 +10,13 @@ const Header = (props) => {
                 <h1>
                     Food Order
                 </h1>
-                <Button >
+                <Button>
                     Cart
                 </Button>
             </header>
             <div className={classes["main-image"]}>
                 <img alt="Food" src={foodImage} />
             </div>
-
-            
-
         </Fragment>
     )
 }
