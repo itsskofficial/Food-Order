@@ -1,5 +1,6 @@
 import { Fragment } from "react"
 import Button from "../UI/Button"
+import foodImage
 
 const Header = (props) => {
     return (
@@ -13,7 +14,7 @@ const Header = (props) => {
                 </Button>
             </header>
             <div>
-                <img alt="Food" src="../../assets/food.jpg"/>
+                <img alt="Food" src=/>
             </div>
 
             
