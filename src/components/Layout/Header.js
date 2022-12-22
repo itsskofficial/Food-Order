@@ -13,7 +13,7 @@ const Header = (props) => {
                 </Button>
             </header>
             <div>
-                <img src="../"
+                <img src="../../assets/"
             </div>
 
             
