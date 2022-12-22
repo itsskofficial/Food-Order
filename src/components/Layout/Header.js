@@ -4,8 +4,9 @@ const Header = (props) => {
     return (
         <Fragment>
             <h1>
-                
+                Food Order
             </h1>
+            
         </Fragment>
     )
 }
