@@ -1,4 +1,4 @@
-i
+import classes from "./css/AvailableMeals.module.css"
 
 const DUMMY_MEALS = [
     {
