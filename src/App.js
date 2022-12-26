@@ -11,6 +11,10 @@ const App = () => {
     setCartIsShown(true)
   }
 
+  const hideCardHandler = () => {
+    set
+  }
+
   return (
     <Fragment>
       <Cart>
