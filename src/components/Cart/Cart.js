@@ -1,3 +1,4 @@
+import Button from "../UI/Button"
 import classes from "./css/Cart.module.css"
 
 const Cart = (props) => {
@@ -16,7 +17,7 @@ const Cart = (props) => {
                 </span>
             </div>
             <div className={classes.actions}>
-                
+                <Button>
             </div>
         </div>
         
