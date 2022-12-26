@@ -1,1 +1,1 @@
-import classes from "./css/"
+import classes from "./css/Input.module.css"
