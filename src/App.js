@@ -5,10 +5,10 @@ import Meals from "./components/Meals/Meals"
 
 const App = () => {
 
-  [cartIsShown,setCartIsShown] = useState(false)
+  const [cartIsShown,setCartIsShown] = useState(false)
 
   const showCardHandler = () => {
-    setCartIsShown(tru)
+    setCartIsShown(true)
   }
 
   return (
