@@ -20,7 +20,7 @@ const Cart = (props) => {
                 <Button className={classes['button-alt']}>
                     Close
                 </Button>
-            
+                <Button className={classes.b}
             </div>
         </div>
         
