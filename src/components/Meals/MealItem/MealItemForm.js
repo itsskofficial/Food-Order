@@ -6,7 +6,7 @@ const MealItemForm = (props) => {
             <Input>
 
             </Input>
-            <Button>
+            <Button type="submit">
                 Add
             </Button>
         </form>
