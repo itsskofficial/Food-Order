@@ -1,6 +1,10 @@
 import classes from "./css/Modal.module.css"
 
-const Backdrop = (props) => {}
+const Backdrop = (props) => {
+    return (
+        <div></div>
+    )
+}
 
 const 
 
