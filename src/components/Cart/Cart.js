@@ -1,4 +1,5 @@
 import Button from "../UI/Button"
+import Modal from "../UI/Modal"
 import classes from "./css/Cart.module.css"
 
 const Cart = (props) => {
@@ -6,7 +7,7 @@ const Cart = (props) => {
         {[{id:1 ,name:"Burger", amount: 2, price: "12.99"}].map((item)=><li>{item.name}</li>)}
     </ul>
     return (
-        <div>
+        <Modal onClose>
             {cartItems}
             <div className={classes.total}>
                 <span>
