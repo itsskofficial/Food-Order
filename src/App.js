@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <Cart>
+      C<Cart>
         <Header>
           <main>
             <Meals/>
