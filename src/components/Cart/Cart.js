@@ -15,7 +15,7 @@ const Cart = (props) => {
                     $12.22
                 </span>
             </div>
-            <div></div>
+            <div className={}></div>
         </div>
         
     )
