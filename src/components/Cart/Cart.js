@@ -7,7 +7,7 @@ const Cart = (props) => {
         {[{id:1 ,name:"Burger", amount: 2, price: "12.99"}].map((item)=><li>{item.name}</li>)}
     </ul>
     return (
-        <Modal onClose>
+        <Modal onClose={props.onClose}>
             {cartItems}
             <div className={classes.total}>
                 <span>
@@ -25,7 +25,7 @@ const Cart = (props) => {
                     Order
                 </Button>
             </div>
-        </div>
+        </Modal>
         
     )
 }
