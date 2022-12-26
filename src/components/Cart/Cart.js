@@ -18,8 +18,9 @@ const Cart = (props) => {
             </div>
             <div className={classes.actions}>
                 <Button className={classes['button-alt']}>
-
+                    Close
                 </Button>
+            
             </div>
         </div>
         
