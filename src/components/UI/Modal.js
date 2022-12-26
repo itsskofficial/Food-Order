@@ -20,7 +20,7 @@ const ModalOverlay = (props) => {
 const Modal = (props) => {
     return (
         <Fragment>
-            {ReactDOM}
+            {ReactDOM.createPortal(<Backdrop)}
             <Backdrop/>
             <ModalOverlay/>
         </Fragment>
