@@ -6,7 +6,8 @@ const Cart = (props) => {
     </ul>
     return (
         <div>
-
+            {cartItems}
         </div>
+        <div></div>
     )
 }
