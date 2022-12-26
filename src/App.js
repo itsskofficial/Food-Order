@@ -7,13 +7,13 @@ const App = () => {
   return (
     <Fragment>
       <Cart>
-        
-      </Cart>
       <Header>
         <main>
           <Meals/>
         </main>
       </Header>
+      </Cart>
+      
     </Fragment>
   )
 }
