@@ -2,7 +2,7 @@ import classes from "./css/Modal.module.css"
 
 const Backdrop = (props) => {
     return (
-        <div className={classes}>
+        <div className={classes.}>
 
         </div>
     )
