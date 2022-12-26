@@ -7,13 +7,12 @@ const App = () => {
   return (
     <Fragment>
       <Cart>
-      <Header>
-        <main>
-          <Meals/>
-        </main>
-      </Header>
+        <Header>
+          <main>
+            <Meals/>
+          </main>
+        </Header>
       </Cart>
-      
     </Fragment>
   )
 }
