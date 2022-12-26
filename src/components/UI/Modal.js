@@ -1,5 +1,5 @@
 import classes from "./css/Modal.module.css"
-import {Fragment} from "react"
+import {Fragment, ReactDOM} from "react"
 
 const Backdrop = (props) => {
     return (
@@ -20,7 +20,7 @@ const ModalOverlay = (props) => {
 const Modal = (props) => {
     return (
         <Fragment>
-            {}
+            {ReactDOM}
             <Backdrop/>
             <ModalOverlay/>
         </Fragment>
