@@ -2,12 +2,15 @@ import classes from "./css/Modal.module.css"
 
 const Backdrop = (props) => {
     return (
-        <div className={classes.backdrop}>
-        </div>
+        <div className={classes.backdrop}/>
     )
 }
 
-const 
+const ModalOverlay = (props) => {
+    return (
+        
+    )
+}
 
 const Modal = (props) => {
     return (
