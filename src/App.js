@@ -23,7 +23,6 @@ const App = () => {
             <Meals/>
           </main>
         </Header>
-      </Cart>
     </Fragment>
   )
 }
