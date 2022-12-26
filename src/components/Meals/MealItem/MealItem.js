@@ -21,7 +21,6 @@ const MealItem = (props) => {
             </li>
             <MealItemForm id={props.id}/>
         </Fragment>
-        
     )
 }
 
