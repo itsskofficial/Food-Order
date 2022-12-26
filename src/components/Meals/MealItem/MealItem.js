@@ -1,10 +1,13 @@
+import { Fragment } from "react"
 import classes from "./css/MealItem.module.css"
 import MealItemForm from "./MealItemForm"
 
 const MealItem = (props) => {
     const price = `$ ${props.price.toFixed(2)}`
     return (
-        <Fra
+        <Fragment>
+            
+        </Fragment>
         <li>
             <div className={classes.meal}>
                 <h3>
