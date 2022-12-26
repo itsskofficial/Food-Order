@@ -19,10 +19,9 @@ const ModalOverlay = (props) => {
 const Modal = (props) => {
     return (
         <Fragment>
-            
+            <Backdrop/>
+            <ModalOverlay/>
         </Fragment>
-        <Backdrop/>
-        <ModalOverlay/>
     )
 }
 
