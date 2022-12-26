@@ -7,19 +7,19 @@ const MealItem = (props) => {
     return (
         <Fragment>
             <li>
-            <div className={classes.meal}>
-                <h3>
-                    {props.name}
-                </h3>
-                <div className={classes.description}>
-                    {props.description}
+                <div className={classes.meal}>
+                    <h3>
+                        {props.name}
+                    </h3>
+                    <div className={classes.description}>
+                        {props.description}
+                    </div>
+                    <div className={classes.price}>
+                        {price}
+                    </div>
                 </div>
-                <div className={classes.price}>
-                    {price}
-                </div>
-             </div>
             </li>
-        <MealItemForm id={props.id}/>
+            <MealItemForm id={props.id}/>
         </Fragment>
         
     )
