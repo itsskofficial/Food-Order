@@ -12,7 +12,7 @@ const App = () => {
   }
 
   const hideCardHandler = () => {
-    set
+    setCartIsShown(false)
   }
 
   return (
