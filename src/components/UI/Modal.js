@@ -3,7 +3,7 @@ import {Fragment, ReactDOM} from "react"
 
 const Backdrop = (props) => {
     return (
-        <div className={classes.backdrop}/>
+        <div className={classes.backdrop} onClick/>
     )
 }
 
