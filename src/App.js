@@ -7,7 +7,9 @@ const App = () => {
 
   [cartIsShown,setCartIsShown] = useState(false)
 
-  const showCardHandler = (e)
+  const showCardHandler = () => {
+    setCartIsShown(tru)
+  }
 
   return (
     <Fragment>
