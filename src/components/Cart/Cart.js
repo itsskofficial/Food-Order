@@ -11,7 +11,9 @@ const Cart = (props) => {
                 <span>
                     Total Amount
                 </span>
-                <sp
+                <span>
+                    $
+                </span>
             </div>
             <div></div>
         </div>
