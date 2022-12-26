@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Fragment>
       {cartIsShown && <Cart />}
-        <Header>
+        <Header onShowCart = {showCardHandler}>
           <main>
             <Meals/>
           </main>
