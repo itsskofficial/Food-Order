@@ -1,6 +1,6 @@
 import classes from "./css/MealItemForm.module.css"
 import Input from "../../UI/Input"
-import Button 
+import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
     return (
