@@ -4,7 +4,7 @@ import Input from "../../UI/Input"
 const MealItemForm = (props) => {
     return (
         <form className={classes.form}>
-            <Input cla/>
+            <Input label="/>
             <Button type="submit">
                 Add Item
             </Button>
