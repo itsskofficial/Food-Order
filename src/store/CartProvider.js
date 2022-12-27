@@ -12,7 +12,8 @@ const cartReducer = (state, action) => {
         const updatedTotalAmount = state.totalAmount + state.item.price * state.item.amount
     }
     return ({
-        items:updatedItems
+        items:updatedItems,
+        totalAmount:upda
     }
     )
 }
