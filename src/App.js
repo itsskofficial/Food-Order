@@ -19,7 +19,12 @@ const App = () => {
   return (
     
     <CartProvider>
-
+      {cartIsShown && <Cart onClose= {hideCardHandler} />}
+        <Header onShowCart = {showCardHandler}>
+          <main>
+            <Meals/>
+          </main>
+        </Header>
     </CartProvider>
       
     </Fragment>
