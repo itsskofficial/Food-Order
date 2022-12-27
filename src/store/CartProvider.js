@@ -5,7 +5,7 @@ const CartProvider = (props) => {
     const removeItemHandler = (id) => {}
     
     const cartContext = ({
-        item
+        items:[]
     })
     return (
         <CartContext.Provider>
