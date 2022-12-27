@@ -7,7 +7,9 @@ import classes from "./css/HeaderCartButton.module.css"
 const HeaderCartButton = (props) => {
     const cartCtx = useContext(CartContext)
 
-    const cart
+    const cartItems = cartCtx.items.reduce(() = > {
+        
+    },0)
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
