@@ -1,6 +1,10 @@
 import CartContext from "./cart-context"
 
-const defaultCartState = ()
+const defaultCartState = {
+    items: [],
+    totalAmount: 0
+    
+const cart
 
 const CartProvider = (props) => {
     const addItemHandler = (item) => {}
