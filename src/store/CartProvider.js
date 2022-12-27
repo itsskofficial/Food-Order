@@ -1,7 +1,7 @@
 import CartContext from "./cart-context"
 
 const CartProvider = (props) => {
-    addItem
+    addItemHandler = (item) => {}
     return (
         <CartContext.Provider>
             {props.children}
