@@ -8,7 +8,7 @@ const HeaderCartButton = (props) => {
     const cartCtx = useContext(CartContext)
 
     const cartItems = cartCtx.items.reduce((current, item) => {
-        
+        return current + item.amount
     },0)
     return (
         <Button className={classes.button} onClick = {props.onClick}>
