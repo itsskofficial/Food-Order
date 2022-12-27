@@ -4,14 +4,14 @@ import Input from "../../UI/Input"
 import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
-    const amountInput = useRef()
+    const amountInputRef = useRef()
     const submitEventHandler = (event) => {
         event.preventDefault()
     }
 
     return (
         <form className={classes.form} onSubmit={submitEventHandler}>
-            <Input label="Amount" input={{
+            <Input label="Amount" input={{}
                 id: 'amount-' + props.id,
                 type: 'number',
                 min: '1',
