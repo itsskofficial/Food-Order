@@ -7,7 +7,8 @@ const defaultCartState = {
 }
     
 const cartReducer = (state, action) => {
-    return defaultCartState
+    
+    const updatedState = 
 }
 
 const CartProvider = (props) => {
