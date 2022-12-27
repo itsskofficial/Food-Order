@@ -9,7 +9,7 @@ const cartReducer = (state, action) => {
 }
 
 const CartProvider = (props) => {
-    useReduc
+    const [cartState, defaultuseReduc
     const addItemHandler = (item) => {}
     const removeItemHandler = (id) => {}
     
