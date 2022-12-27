@@ -2,7 +2,8 @@ import CartContext from "./cart-context"
 
 const CartProvider = (props) => {
     const addItemHandler = (item) => {}
-    const removeItemHandler = (id) => {}
+    const removeItemHandler = (id) => { }
+    
     return (
         <CartContext.Provider>
             {props.children}
