@@ -3,6 +3,8 @@ import Input from "../../UI/Input"
 import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
+    const submit
+
     return (
         <form className={classes.form}>
             <Input label="Amount" input={{
