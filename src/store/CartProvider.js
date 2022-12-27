@@ -4,7 +4,9 @@ const defaultCartState = {
     items: [],
     totalAmount: 0
     
-const cart
+const cartReducer = (state, action) => {
+    
+}
 
 const CartProvider = (props) => {
     const addItemHandler = (item) => {}
