@@ -1,5 +1,7 @@
 import CartContext from "./cart-context"
 
+default Cart
+
 const CartProvider = (props) => {
     const addItemHandler = (item) => {}
     const removeItemHandler = (id) => {}
