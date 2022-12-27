@@ -4,7 +4,7 @@ import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
     const submitEventHandler = (event) => {
-        
+        event.preventDefault()
     }
 
     return (
