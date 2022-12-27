@@ -5,10 +5,11 @@ const defaultCartState = {
     totalAmount: 0
     
 const cartReducer = (state, action) => {
-    
+    return defaultCartState
 }
 
 const CartProvider = (props) => {
+    useReduc
     const addItemHandler = (item) => {}
     const removeItemHandler = (id) => {}
     
