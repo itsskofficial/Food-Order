@@ -17,7 +17,6 @@ const App = () => {
   }
 
   return (
-    
     <CartProvider>
       {cartIsShown && <Cart onClose= {hideCardHandler} />}
       <Header onShowCart = {showCardHandler}>
@@ -26,8 +25,6 @@ const App = () => {
         </main>
       </Header>
     </CartProvider>
-      
-    </Fragment>
   )
 }
 
