@@ -7,6 +7,4 @@ const CartContext = React.createContext({
     removeItem : (id) => {}
 })
 
-const AuthContextProvider = (props) => {
-    const 
-}
+export default CartContext
