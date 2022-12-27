@@ -8,7 +8,7 @@ const MealItemForm = (props) => {
     }
 
     return (
-        <form className={classes.form}>
+        <form className={classes.form} onSubmit={submitEventHandler}>
             <Input label="Amount" input={{
                 id: 'amount-' + props.id,
                 type: 'number',
