@@ -20,7 +20,7 @@ const HeaderCartButton = (props) => {
                 Your Cart
             </span>
             <span className={classes.badge}>
-                3    
+                {}  
             </span>
         </Button>
     )
