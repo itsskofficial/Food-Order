@@ -11,7 +11,12 @@ const cartReducer = (state, action) => {
         const updatedState = state.items.concat(action.item)
         const updatedTotalAmount = state.totalAmount + state.item.price * state.item.amount
     }
-    ret
+    return (
+        {
+    
+        }
+    )
+    )
 }
 
 const CartProvider = (props) => {
