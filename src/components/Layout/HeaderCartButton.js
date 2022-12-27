@@ -3,6 +3,7 @@ import Button from "../UI/Button"
 import classes from "./css/HeaderCartButton.module.css"
 
 const HeaderCartButton = (props) => {
+    const cartCtx
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
