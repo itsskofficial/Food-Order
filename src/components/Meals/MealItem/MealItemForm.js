@@ -3,7 +3,9 @@ import Input from "../../UI/Input"
 import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
-    const submit
+    const submitEventHandler = (event) => {
+        
+    }
 
     return (
         <form className={classes.form}>
