@@ -20,11 +20,11 @@ const App = () => {
     
     <CartProvider>
       {cartIsShown && <Cart onClose= {hideCardHandler} />}
-        <Header onShowCart = {showCardHandler}>
-          <main>
-            <Meals/>
-          </main>
-        </Header>
+      <Header onShowCart = {showCardHandler}>
+        <main>
+          <Meals/>
+        </main>
+      </Header>
     </CartProvider>
       
     </Fragment>
