@@ -15,7 +15,6 @@ const cartReducer = (state, action) => {
         items:updatedItems
     }
     )
-    )
 }
 
 const CartProvider = (props) => {
