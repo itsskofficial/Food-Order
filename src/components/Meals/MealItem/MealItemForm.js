@@ -10,7 +10,7 @@ const MealItemForm = (props) => {
         const enteredAmount = amountInputRef.current.value
         const enteredAmountNumber = +enteredAmount
 
-        if (enteredAmountNumber)
+        if (enteredAmount.trim().length===0 )
     }
 
     return (
