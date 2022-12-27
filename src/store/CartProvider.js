@@ -7,7 +7,7 @@ const defaultCartState = {
 }
     
 const cartReducer = (state, action) => {
-    
+    if ()
     const updatedState = 
 }
 
