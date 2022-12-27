@@ -10,6 +10,7 @@ const CartProvider = (props) => {
         addItem: addItemHandler,
         removeItem: removeItemHandler
     })
+    
     return (
         <CartContext.Provider>
             {props.children}
