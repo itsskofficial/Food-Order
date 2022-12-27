@@ -7,7 +7,7 @@ const CartProvider = (props) => {
     const cartContext = ({
         items: [],
         totalAmount: 0,
-        
+        addItem: add
     })
     return (
         <CartContext.Provider>
