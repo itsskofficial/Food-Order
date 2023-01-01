@@ -3,6 +3,7 @@ import classes from "./css/MealItem.module.css"
 import MealItemForm from "./MealItemForm"
 
 const MealItem = (props) => {
+    const cartCtx
     const price = `$ ${props.price.toFixed(2)}`
     const addToCartHandler = (amount) => {
 
