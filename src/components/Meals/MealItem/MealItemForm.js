@@ -4,7 +4,7 @@ import Input from "../../UI/Input"
 import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
-    const [amountIsValid,setAmountIsValid] = useState()
+    const [amountIsValid,setAmountIsValid] = useState(true)
     const amountInputRef = useRef()
     const submitEventHandler = (event) => {
         event.preventDefault()
