@@ -6,6 +6,7 @@ import classes from "./css/Cart.module.css"
 
 const Cart = (props) => {
     const cartCtx = useContext(CartContext)
+    const i
     const cartItems = <ul className={classes['cart-items']}>
         {cartCtx.items.map((item)=><li>{item.name}</li>)}
     </ul>
