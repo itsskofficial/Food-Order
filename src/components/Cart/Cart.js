@@ -30,7 +30,6 @@ const Cart = (props) => {
                     <Button className={classes.button}>
                         Order
                     </Button>}
-                
             </div>
         </Modal>
         
