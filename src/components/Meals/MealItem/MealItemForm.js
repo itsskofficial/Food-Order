@@ -29,7 +29,7 @@ const MealItemForm = (props) => {
             <Button type="submit">
                 Add Item
             </Button>
-            {!amou}
+            {!amountIsValid}
         </form>
     )
 }
