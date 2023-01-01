@@ -4,8 +4,8 @@ import MealItemForm from "./MealItemForm"
 
 const MealItem = (props) => {
     const price = `$ ${props.price.toFixed(2)}`
-    const addToCartHandler = (event) => {
-        
+    const addToCartHandler = (amount) => {
+
     }
     return (
         <Fragment>
