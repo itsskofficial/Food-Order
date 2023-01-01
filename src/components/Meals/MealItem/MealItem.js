@@ -22,7 +22,7 @@ const MealItem = (props) => {
                     </div>
                 </div>
             </li>
-            <MealItemForm id={props.id}/>
+            <MealItemForm id={props.id} on/>
         </Fragment>
     )
 }
