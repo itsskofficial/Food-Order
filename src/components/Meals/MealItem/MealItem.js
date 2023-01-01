@@ -1,9 +1,10 @@
 import { Fragment, useContext } from "react"
+import CartContext from "../../../store/cart-context"
 import classes from "./css/MealItem.module.css"
 import MealItemForm from "./MealItemForm"
 
 const MealItem = (props) => {
-    const cartCtx = useContext(CartContex)
+    const cartCtx = useContext(CartContext)
     const price = `$ ${props.price.toFixed(2)}`
     const addToCartHandler = (amount) => {
 
