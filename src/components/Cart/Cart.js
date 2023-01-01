@@ -9,8 +9,9 @@ const Cart = (props) => {
     const cartCtx = useContext(CartContext)
     const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`
     const onAddHandler = (item) => {
-        
+
     }
+    const 
     const cartItems = <ul className={classes['cart-items']}>
         {cartCtx.items.map((item) => <li><CartItem key={item.id} name={item.name} price={item.price} amount={item.amount} /></li>)}
     </ul>
