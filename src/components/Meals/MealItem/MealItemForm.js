@@ -1,10 +1,10 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import classes from "./css/MealItemForm.module.css"
 import Input from "../../UI/Input"
 import Button from "../../UI/Button"
 
 const MealItemForm = (props) => {
-    const [amountIsValid,set]
+    const [amountIsValid,setAmountIsValid] = useState()
     const amountInputRef = useRef()
     const submitEventHandler = (event) => {
         event.preventDefault()
