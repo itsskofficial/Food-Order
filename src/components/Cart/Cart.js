@@ -15,7 +15,7 @@ const Cart = (props) => {
 
     }
     const cartItems = <ul className={classes['cart-items']}>
-        {cartCtx.items.map((item) => <li><CartItem key={item.id} name={item.name} price={item.price} amount={item.amount} onAdd={onAddHandler.bind(null, item)} /></li>)}
+        {cartCtx.items.map((item) => <li><CartItem key={item.id} name={item.name} price={item.price} amount={item.amount} onAdd={onAddHandler.bind(null, item)} onRemove={onRemoveHandler.bind(null,id)} /></li>)}
     </ul>
     return (
         <Modal onClose={props.onClose}>
