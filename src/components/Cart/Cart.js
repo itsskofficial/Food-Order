@@ -25,6 +25,7 @@ const Cart = (props) => {
                 <Button className={classes['button-alt']} onClick = {props.onClose}>
                     Close
                 </Button>
+                {}
                 <Button className={classes.button}>
                     Order
                 </Button>
