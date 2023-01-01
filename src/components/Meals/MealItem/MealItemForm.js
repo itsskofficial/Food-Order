@@ -15,6 +15,8 @@ const MealItemForm = (props) => {
             setAmountIsValid(false)
             return
         }
+
+        props.on
     }
 
     return (
