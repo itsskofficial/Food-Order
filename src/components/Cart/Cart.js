@@ -9,7 +9,7 @@ const Cart = (props) => {
     const cartCtx = useContext(CartContext)
     const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`
     const cartItems = <ul className={classes['cart-items']}>
-        {cartCtx.items.map((item) => <li><CartItem id={item.id}  name/></li>)}
+        {cartCtx.items.map((item) => <li><CartItem id={item.id} name={item.name} /></li>)}
     </ul>
     return (
         <Modal onClose={props.onClose}>
