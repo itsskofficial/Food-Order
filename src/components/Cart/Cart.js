@@ -25,10 +25,10 @@ const Cart = (props) => {
                 <Button className={classes['button-alt']} onClick = {props.onClose}>
                     Close
                 </Button>
-                {cartCtx}
-                <Button className={classes.button}>
+                {cartCtx.items.length>0 && <Button className={classes.button}>
                     Order
-                </Button>
+                </Button>}
+                
             </div>
         </Modal>
         
