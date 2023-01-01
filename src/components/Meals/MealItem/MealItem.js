@@ -1,9 +1,9 @@
-import { Fragment } from "react"
+import { Fragment, useContext } from "react"
 import classes from "./css/MealItem.module.css"
 import MealItemForm from "./MealItemForm"
 
 const MealItem = (props) => {
-    const cartCtx
+    const cartCtx = useContext(cart)
     const price = `$ ${props.price.toFixed(2)}`
     const addToCartHandler = (amount) => {
 
