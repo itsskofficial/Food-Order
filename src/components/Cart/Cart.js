@@ -12,10 +12,10 @@ const Cart = (props) => {
 
     }
     const onRemoveHandler = (id) => {
-        
+
     }
     const cartItems = <ul className={classes['cart-items']}>
-        {cartCtx.items.map((item) => <li><CartItem key={item.id} name={item.name} price={item.price} amount={item.amount} /></li>)}
+        {cartCtx.items.map((item) => <li><CartItem key={item.id} name={item.name} price={item.price} amount={item.amount} onAdd={onAddHandler/></li>)}
     </ul>
     return (
         <Modal onClose={props.onClose}>
