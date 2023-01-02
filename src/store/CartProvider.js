@@ -34,6 +34,7 @@ const cartReducer = (state, action) => {
         }
         )
     }
+        
 }
 
 const CartProvider = (props) => {
