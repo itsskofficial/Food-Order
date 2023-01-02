@@ -14,7 +14,9 @@ const HeaderCartButton = (props) => {
     
     const btnClasses = `${classes.button} ${animateBtn && classes.bump}`
     useEffect(() => {
-        if cartCtx.items
+        if (cartCtx.items.length===0){
+            return
+        }
         setanimateBtn(true)
     },[])
     return (
