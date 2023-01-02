@@ -35,7 +35,9 @@ const cartReducer = (state, action) => {
         )
     }
     
-    if (acti)
+    if (action.type === 'REMOVE') {
+        
+    }
 }
 
 const CartProvider = (props) => {
