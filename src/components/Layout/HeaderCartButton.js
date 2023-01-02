@@ -19,7 +19,9 @@ const HeaderCartButton = (props) => {
         }
         setanimateBtn(true)
 
-        
+        const timer = setTimeout(() => {
+            
+        })
     }, [cartCtx.items])
     
     return (
