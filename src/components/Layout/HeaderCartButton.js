@@ -5,6 +5,7 @@ import Button from "../UI/Button"
 import classes from "./css/HeaderCartButton.module.css"
 
 const HeaderCartButton = (props) => {
+    const btn
     const cartCtx = useContext(CartContext)
 
     const cartItems = cartCtx.items.reduce((current, item) => {
