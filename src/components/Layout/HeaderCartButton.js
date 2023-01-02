@@ -21,7 +21,7 @@ const HeaderCartButton = (props) => {
     }, [cartCtx.items])
     
     return (
-        <Button className={classes.button} onClick = {props.onClick}>
+        <Button className={btnClasses} onClick = {props.onClick}>
             <span className={classes.icon}>
                 <CartIcon/>
             </span>
