@@ -54,7 +54,7 @@ const cartReducer = (state, action) => {
             totalAmount:updatedTotalAmount
         })
     }
-    return 
+    return defaultCartState
 }
 
 const CartProvider = (props) => {
