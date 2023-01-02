@@ -13,7 +13,9 @@ const HeaderCartButton = (props) => {
     }, 0)
     
     const btnClasses = `${classes.button} ${animateBtn && classes.bump}`
-    useEffect()
+    useEffect({
+        
+    })
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
