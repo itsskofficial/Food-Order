@@ -1,11 +1,11 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import CartContext from "../../store/cart-context"
 import CartIcon from "../Cart/CartIcon"
 import Button from "../UI/Button"
 import classes from "./css/HeaderCartButton.module.css"
 
 const HeaderCartButton = (props) => {
-    const animateBtn,setanimateBtn 
+    const animateBtn,setanimateBtn = useState(false)
     const cartCtx = useContext(CartContext)
 
     const cartItems = cartCtx.items.reduce((current, item) => {
