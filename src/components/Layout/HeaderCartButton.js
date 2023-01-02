@@ -20,8 +20,12 @@ const HeaderCartButton = (props) => {
         setanimateBtn(true)
 
         const timer = setTimeout(() => {
+            setanimateBtn(false)
+        },300)
+
+        return () => {
             
-        })
+        }
     }, [cartCtx.items])
     
     return (
