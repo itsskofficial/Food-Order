@@ -43,7 +43,7 @@ const cartReducer = (state, action) => {
             const updatedItems = state.items.filter(item => item.id !== action.id)
         }
         else {
-            
+            const updatedItem=
         }
     }
 }
