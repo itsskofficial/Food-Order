@@ -34,7 +34,8 @@ const cartReducer = (state, action) => {
         }
         )
     }
-        
+    
+    if (acti)
 }
 
 const CartProvider = (props) => {
