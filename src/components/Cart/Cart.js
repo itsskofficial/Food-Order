@@ -9,7 +9,7 @@ const Cart = (props) => {
     const cartCtx = useContext(CartContext)
     const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`
     const onAddHandler = (item) => {
-        cartCtx.
+        cartCtx.addItem()
     }
     const onRemoveHandler = (id) => {
 
