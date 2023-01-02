@@ -5,7 +5,7 @@ import Button from "../UI/Button"
 import classes from "./css/HeaderCartButton.module.css"
 
 const HeaderCartButton = (props) => {
-    const animateBtn,setanimateBtn = useState(false)
+    const [animateBtn,setanimateBtn] = useState(false)
     const cartCtx = useContext(CartContext)
 
     const cartItems = cartCtx.items.reduce((current, item) => {
