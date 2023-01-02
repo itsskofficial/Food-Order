@@ -18,7 +18,8 @@ const HeaderCartButton = (props) => {
             return
         }
         setanimateBtn(true)
-    },[])
+    }, [cartCtx.items])
+    
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
