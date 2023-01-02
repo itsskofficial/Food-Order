@@ -50,7 +50,7 @@ const cartReducer = (state, action) => {
             updatedItems[existingItemIndex]=updatedItem
         }
         return ({
-            items: updated,
+            items: updatedItems,
             totalAmount:updatedTotalAmount
         })
     }
