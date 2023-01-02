@@ -1,4 +1,4 @@
-import { useContext, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import CartContext from "../../store/cart-context"
 import CartIcon from "../Cart/CartIcon"
 import Button from "../UI/Button"
@@ -13,7 +13,7 @@ const HeaderCartButton = (props) => {
     }, 0)
     
     const btnClasses = `${classes.button} ${animateBtn && classes.bump}`
-    useE
+    useEffect()
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
