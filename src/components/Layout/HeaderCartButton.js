@@ -12,7 +12,7 @@ const HeaderCartButton = (props) => {
         return current + item.amount
     }, 0)
     
-    const btnClasses=`${classes.button}`
+    const btnClasses=`${classes.button} {animateB}`
     return (
         <Button className={classes.button} onClick = {props.onClick}>
             <span className={classes.icon}>
