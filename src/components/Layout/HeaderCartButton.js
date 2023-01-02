@@ -18,6 +18,8 @@ const HeaderCartButton = (props) => {
             return
         }
         setanimateBtn(true)
+
+        
     }, [cartCtx.items])
     
     return (
