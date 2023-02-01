@@ -19,7 +19,6 @@ const AvailableMeals = () => {
           name:data[key].name,
           name:data[key].name,
           name:data[key].name,
-          descrip
         })
       }
     }
