@@ -6,7 +6,7 @@ import MealItem from "./MealItem/MealItem";
 
 
 const AvailableMeals = () => {
-  con
+  const [meals,setMeals]=useState()
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch('https://food-order-a9206-default-rtdb.firebaseio.com/meals.json')
