@@ -1,4 +1,4 @@
-import 
+import { useEffect } from "react";
 
 import Card from "../UI/Card";
 import classes from "./css/AvailableMeals.module.css"
