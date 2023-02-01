@@ -11,7 +11,9 @@ const AvailableMeals = () => {
       const response = await fetch('https://food-order-a9206-default-rtdb.firebaseio.com/meals.json')
       const data = response.json()
       
-      const loadedMeals = 
+      const loadedMeals = []
+
+      for 
     }
   }, [])
   
