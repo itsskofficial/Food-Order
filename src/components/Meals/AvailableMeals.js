@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import Card from "../UI/Card";
 import classes from "./css/AvailableMeals.module.css"
@@ -23,6 +23,7 @@ const AvailableMeals = () => {
           price:data[key].price,
         })
       }
+      setMeals(load)
     }
     fetchMeals()
   }, [meals])
