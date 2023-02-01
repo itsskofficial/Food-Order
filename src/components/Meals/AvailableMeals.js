@@ -13,7 +13,9 @@ const AvailableMeals = () => {
       
       const loadedMeals = []
 
-      for 
+      for (const key in data) {
+        
+      }
     }
   }, [])
   
