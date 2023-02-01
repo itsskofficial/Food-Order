@@ -14,7 +14,10 @@ const AvailableMeals = () => {
       const loadedMeals = []
 
       for (const key in data) {
-        
+        loadedMeals.push({
+          id:key,
+          name:data[key]
+        })
       }
     }
   }, [])
