@@ -23,7 +23,7 @@ const AvailableMeals = () => {
           price:data[key].price,
         })
       }
-      setMeals(load)
+      setMeals(loadedMeals)
     }
     fetchMeals()
   }, [meals])
